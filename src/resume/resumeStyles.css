@@ -1,0 +1,39 @@
+.main-container {
+    background:white;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.MyInfo {
+    text-align: center;
+}
+
+.summary {
+    color:blue;
+    background: lightgrey;
+    margin: 20px;
+}
+
+.text {
+    margin: 20px;
+}
+
+#school {
+    text: bold;
+}
+
+#place {
+    float: right;
+}
+
+.jobs {
+    border-bottom: 2px solid grey;
+    margin: 20px
+}
+
+.company {
+    margin: 20px;
+    font: bold
+}

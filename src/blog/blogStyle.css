@@ -1,0 +1,62 @@
+.main-container {
+    background:rgb(241, 235, 235);
+}
+
+header {
+    background: blue;
+    color: white;
+    font-size: 20px;
+}
+
+.first {
+   font-size: 20px;
+   word-spacing: 30px;
+   margin-top: 20px;
+   text-align: right;
+   left: 100px;
+}
+
+h3 {
+    color: blue;
+    text-align: right;
+    font-size: 20px;
+    margin-right: 20%;
+    background: white;
+}
+
+.second {
+    color: blue;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+main {
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    background: white;
+    border: 2px solid grey;
+}
+
+.second:nth-of-type(4) {
+    background: orange;
+}
+
+section {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+div {
+    background: whitesmoke;
+}
+
+.logo {
+    position: absolute;
+    left: 150px;
+    width: 40px;
+    height: 40px;
+}

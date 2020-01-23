@@ -22,10 +22,21 @@ h1 {
 
 #school {
     text: bold;
+    margin: 20px;
 }
 
 #place {
-    float: right;
+    text-align: right;
+    margin: 20px;
+}
+
+#date {
+    text-align: right;
+    margin: 20px;
+}
+
+#degree {
+    margin: 20px;
 }
 
 .jobs {
@@ -36,4 +47,20 @@ h1 {
 .company {
     margin: 20px;
     font: bold
+}
+
+p {
+    margin: 20px;
+}
+
+h5 {
+    margin: 20px;
+}
+
+date {
+    margin: 20px;
+}
+
+li {
+    margin: 20px;
 }

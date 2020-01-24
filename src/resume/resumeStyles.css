@@ -26,8 +26,10 @@ h1 {
 }
 
 #place {
-    text-align: right;
     margin: 20px;
+    float: right;
+    padding: 10px;
+    top: 0px; 
 }
 
 #date {
@@ -63,4 +65,8 @@ date {
 
 li {
     margin: 20px;
+}
+
+.textbox {
+    display: inline;
 }

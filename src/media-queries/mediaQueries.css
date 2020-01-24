@@ -1,0 +1,17 @@
+.container {
+    border: 1px solid red;
+    height: 100%;
+    width: 100%;
+}
+
+#music {
+    height: 500px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+}

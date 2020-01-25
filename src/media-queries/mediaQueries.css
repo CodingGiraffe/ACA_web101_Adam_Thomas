@@ -5,18 +5,21 @@
 
 #music {
     height: 500px;
-    width: 500px;
+    width: 1000px;
     display: block;
-    margin-left: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
+
 }
+
 
 ul {
     list-style-type: none;
 }
 
 #p {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .button {
@@ -25,7 +28,7 @@ ul {
     color: white;
     padding: 15px 32px;
     font-size: 16px;
-    margin-left: 25%;
+    margin-left: 10%;
     margin-top: 20px;
  
 }
@@ -44,10 +47,9 @@ footer {
 }
 
 p {
-    display: inline-block;
-    text-align: center;
-    margin-left: 25%;
+    margin-left: 10%;
     font-size: 60px;
+    text-align: left;
 }
 
 li {
@@ -64,5 +66,36 @@ li {
 
 section {
     font-size: 60px;
-    margin-left: 25%;
+    margin-left: 10%;
+}
+
+
+
+/* Small and up (Landscape Phones) */
+@media (min-width: 0px) {
+    .top2 {
+        display:none;
+    }
+}
+/* Medium and up (Tablets) */
+@media (min-width: 768px) {
+
+footer {
+    display:none;
+}
+
+.top2 {
+    display:none;
+}
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+
+    .top2 {
+        display:inline-block;
+    }
+}
+/* Extra Large and up (Wide Screen Desktops) */
+@media (min-width: 1200px) {
+
 }

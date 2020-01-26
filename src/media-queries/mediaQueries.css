@@ -56,7 +56,6 @@ li {
     border-bottom: 5px solid black;
     font-size: 30px;
     padding: 10px;
-     
 }
 
 #button {
@@ -67,6 +66,12 @@ li {
 section {
     font-size: 60px;
     margin-left: 10%;
+}
+
+.top2 {
+    text-align: right;
+    margin-top: -500px;
+    margin-left: 70%;
 }
 
 
@@ -93,6 +98,10 @@ footer {
 
     .top2 {
         display:inline-block;
+    }
+
+    #music{
+        width:600px
     }
 }
 /* Extra Large and up (Wide Screen Desktops) */

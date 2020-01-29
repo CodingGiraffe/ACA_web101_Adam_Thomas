@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Grids Dashboard</title>
+    <link rel="stylesheet" href="./cssgrids.css">
+</head>
+<body>
+    <main class="main-container">
+        <div class="greeting"> <h2>Hello World!!</h2></div>
+        
+        <div class="date"> <div class="cleanslate w24tz-current-time w24tz-middle" style="display: inline-block !important; visibility: hidden !important; min-width:300px !important; min-height:145px !important;"><p><a href="//24timezones.com/world_directory/time_in_austin.php" style="text-decoration: none" class="clock24" id="tz24-1580333255-c124-eyJob3VydHlwZSI6MTIsInNob3dkYXRlIjoiMSIsInNob3dzZWNvbmRzIjoiMCIsImNvbnRhaW5lcl9pZCI6ImNsb2NrX2Jsb2NrX2NiNWUzMWY4YzdkY2M3NCIsInR5cGUiOiJkYiIsImxhbmciOiJlbiJ9" title="time now Austin" target="_blank" rel="nofollow">Austin time</a></p><div id="clock_block_cb5e31f8c7dcc74"></div></div>
+        <script type="text/javascript" src="//w.24timezones.com/l.js" async></script></div>
+
+        <!--https://24timezones.com/clock-widget/digital#widget-code-->
+        
+        <div id='calc-contain'>
+  
+            <form name="calculator">
+              
+              <input type="text" name="answer" />
+              <br>
+              
+              <input type="button" value=" 1 " onclick="calculator.answer.value += '1'" />
+              <input type="button" value=" 2 " onclick="calculator.answer.value += '2'" />
+              <input type="button" value=" 3 " onclick="calculator.answer.value += '3'" />
+              <input type="button" value=" + " onclick="calculator.answer.value += '+'" />
+              <br/>
+              
+              <input type="button" value=" 4 " onclick="calculator.answer.value += '4'" />
+              <input type="button" value=" 5 " onclick="calculator.answer.value += '5'" />
+              <input type="button" value=" 6 " onclick="calculator.answer.value += '6'" />
+              <input type="button" value=" - " onclick="calculator.answer.value += '-'" />
+              </br>
+            
+              <input type="button" value=" 7 " onclick="calculator.answer.value += '7'" />
+              <input type="button" value=" 8 " onclick="calculator.answer.value += '8'" />
+              <input type="button" value=" 9 " onclick="calculator.answer.value += '9'" />
+              <input type="button" value=" x " onclick="calculator.answer.value += '*'" />
+              </br>
+          
+              <input type="button" value=" c " onclick="calculator.answer.value = ''" />
+              <input type="button" value=" 0 " onclick="calculator.answer.value += '0'" />
+              <input type="button" value=" = " onclick="calculator.answer.value = eval(calculator.answer.value)" />
+              <input type="button" value=" / " onclick="calculator.answer.value += '/'" />
+              </br>
+
+              <!--https://code.sololearn.com/WK4yOr39W3BW/#css-->
+    
+      
+            </form>
+            <div id="agh">
+              <p>Calculator
+            </div>
+          </div>
+       
+        <div class="todo"> <div id="myDIV" class="header">
+            <h2>My To Do List</h2>
+            <input type="text" id="myInput" placeholder="What Up??...">
+            <span onclick="newElement()" class="addBtn">Add</span>
+          </div>
+          
+          <ul id="myUL">
+            <li>Hit the gym</li>
+            <li>Pay bills</li>
+            <li>Meet George</li>
+            <li>Buy eggs</li>
+            <li>Read a book</li>
+            <li>CODE!!!</li>
+
+            <!--https://www.w3schools.com/howto/howto_js_todolist.asp-->
+          </ul></div>
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,48 @@
+.main-container {
+    background: url("./flag.jpg");
+    height: 100%;
+    width: 100%;
+    border: 1 px solid red;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10,1fr);
+}
+
+.greeting {
+    background:pink;
+    grid-column: 2/8;
+    grid-row: 1/2;
+    font-size: 30px;
+    border: 5px solid grey;
+}
+
+h2 {
+    text-align: center;
+}
+
+.date {
+    background:pink
+    grid-column: 10;
+    grid-row: .5;
+}
+
+#calc-contain {
+    background:pink;
+    grid-column: 1/4;
+    grid-row: 4 / 5;
+    border: 5px solid grey;
+}
+
+.clock {
+    background: pink
+    grid-column: 2/6;
+    grid-row: 6/7;
+}
+
+.todo {
+    background: pink;
+    grid-column: 7/11;
+    grid-row: 4/8;
+    border: 5px solid grey;
+}
+

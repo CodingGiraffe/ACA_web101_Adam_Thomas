@@ -21,7 +21,7 @@ h2 {
 }
 
 .date {
-    background:pink;
+    background:pink
     grid-column: 10;
     grid-row: .5;
 }
@@ -34,7 +34,7 @@ h2 {
 }
 
 .clock {
-    background: pink;
+    background: pink
     grid-column: 2/6;
     grid-row: 6/7;
 }

@@ -1,0 +1,39 @@
+body {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-template-rows: 60px auto 60px;
+    grid-template-areas: "hd hd" "sidebar main" "footer footer";
+}
+
+header {
+    background-color:red;
+    color:white;
+    text-align: center;
+    grid-area: hd;
+}
+
+aside {
+    background-color: blue;
+    text-align: center;
+    font-size: 20px;
+    color:white;
+    grid-area: sidebar;
+}
+
+main {
+    background-color: purple;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color:white;
+    grid-area: main;
+}
+
+footer {
+    background-color: yellow;
+    text-align: center;
+    font-size: 20px;
+    color:black;
+    grid-area: footer;
+}

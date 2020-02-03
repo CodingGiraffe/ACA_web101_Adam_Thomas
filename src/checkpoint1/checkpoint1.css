@@ -198,4 +198,20 @@ p {
     .six {
         display:none
     }
+    .one {
+        height: 150px;
+        width: 110px;
+    }
+    .two {
+        height: 150px;
+        width: 110px;
+    }
+    .three {
+        height: 150px;
+        width: 110px;
+    }
+    .four {
+        height: 150px;
+        width: 110px;
+    }
 }

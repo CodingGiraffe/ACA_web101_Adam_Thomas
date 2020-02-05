@@ -145,13 +145,14 @@ p {
 }
 
 .img1 {
-    height:275px;
+    height:175px;
     width: 320px;
     padding: 20px;
+    background-size: cover;
 }
 
 .img2 {
-    height:275px;
+    height:175px;
     width: 420px;
     padding: 20px
 }

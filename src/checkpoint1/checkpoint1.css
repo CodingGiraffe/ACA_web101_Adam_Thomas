@@ -83,7 +83,8 @@ nav {
     background-color: white;
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 .two {
@@ -92,7 +93,8 @@ nav {
     background-color: white;
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 .three {
@@ -101,7 +103,8 @@ nav {
     background-color: white;
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 .four {
@@ -110,12 +113,13 @@ nav {
     background-color: white;
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 .five {
     grid-column: 4/10;
-    grid-row: 11 / 19;
+    grid-row: 11 / 16;
     background-color: white;
 }
 
@@ -145,16 +149,11 @@ p {
 }
 
 .img1 {
-    height:175px;
-    width: 320px;
-    padding: 20px;
-    background-size: cover;
+   width: 100%;
 }
 
 .img2 {
-    height:175px;
-    width: 420px;
-    padding: 20px
+    width: 100%;
 }
 
 @media (max-width: 576px) {

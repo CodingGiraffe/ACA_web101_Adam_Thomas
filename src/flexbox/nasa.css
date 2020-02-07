@@ -6,7 +6,7 @@
     height: 100%;
     width: 100%;
     margin-bottom: 20px;
-    background-image: url(./space.jpg);
+    background-image: url('./space.jpg');
     background-size: cover;
     background-position: cover;
     display: flex;
@@ -51,9 +51,11 @@ li {
     margin-bottom: 5px;
 }
 
-@media (max-width:800px) {
+@media (max-width:500px) {
     .social {
-        display:block;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
     }
 }
 

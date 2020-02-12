@@ -1,0 +1,146 @@
+.main-container {
+    height: 100%;
+    width: 100%;
+    
+}
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url("https://storage.coverr.co/videos/Blue-Horizon?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6IjExNDMyN0NEOTRCMUFCMTFERTE3IiwiaWF0IjoxNTgxNTIwNDgzfQ.gRFi_DzPu06okr34EkcWmxA4Kjz2vIxPaM6wFARYRRs") repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Tangerine', serif;
+    font-size: 30px;
+    text-shadow: 4px 4px 4px teal;
+    color: ghostwhite;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    justify-content: space-between;
+    padding: 10px
+}
+
+a {
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+.logo {
+    height: 100px;
+    flex: 1;
+    font-size: 80px;
+    font-family: 'Fredericka the Great', cursive;
+    padding: 0px 0px 0px 20px;
+}
+
+/* .logo img {
+    height: 100%;
+    border: 2px solid black;
+} */
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px 0 20px;
+    height: 700px;
+    font-family: 'Russo One', sans-serif;
+    color: ghostwhite;
+    text-shadow: 4px 4px 4px teal;
+}
+
+main .portfolio {
+    height: 300px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .photo {
+    height: 300px;
+}
+
+main .photo img {
+    height: 100%;
+    border: 3px solid teal;
+}
+
+main .content {
+    flex-direction: column;
+}
+
+main .content p:nth-of-type(1) {
+    font-size: 54px;
+}
+
+main .content p:nth-of-type(2) {
+    text-transform: uppercase;
+    letter-spacing: 2.8;
+  }
+
+main .content button {
+    font-size: 16px;
+    margin: 20px 0 0;
+    border: 2px solid rgba(39, 36, 36, 0.729);
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: teal;
+    color: ghostwhite;
+    font-family: 'Russo One', sans-serif;
+  }
+
+  main .content button:hover {
+    box-shadow: 7px 9px 9px 0px rgb(68, 67, 67);
+    transform: translateY(-1px);
+    cursor: pointer;
+  }
+
+footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Lacquer';
+    font-size: 30px;
+    text-shadow: 4px 4px 4px teal;
+    color: ghostwhite;
+}
+
+@media only screen and (max-width: 600px) {
+    nav ul {
+        display: none;
+    }
+    
+    main {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .logo {
+        text-align: center;
+        padding: 5px 0px 0px 0px;
+    }
+  }

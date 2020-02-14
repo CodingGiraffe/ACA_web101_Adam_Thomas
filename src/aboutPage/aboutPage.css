@@ -15,6 +15,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px
 }
 
 .one {
@@ -28,6 +29,7 @@ header {
 img {
     height: 100%;
     padding: 20px;
+    border-radius: 100px;
 }
 
 .school {
@@ -45,7 +47,9 @@ img {
 p {
     color: ghostwhite;
     font-family: 'Montserrat', sans-serif;
-    padding: 20px
+    padding: 20px;
+    background-color: rgb(9, 65, 37);
+    border-radius: 100px;
 }
 
 video { 

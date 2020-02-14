@@ -23,7 +23,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Tangerine', serif;
+    font-family: 'Fredericka the Great', cursive;
     font-size: 30px;
     text-shadow: 4px 4px 4px teal;
     color: ghostwhite;
@@ -48,8 +48,9 @@ a {
     height: 100px;
     flex: 1;
     font-size: 80px;
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Ewert', cursive;
     padding: 0px 0px 0px 20px;
+    color: teal;
 }
 
 /* .logo img {

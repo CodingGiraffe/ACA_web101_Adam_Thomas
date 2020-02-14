@@ -63,4 +63,17 @@ video {
         z-index: -100;
         transform: translate(-50%, -50%);
 }
+@media only screen and (max-width: 600px) {
+    .section {
+      display: flex;
+      flex-direction: column;
+    }
 
+    .austin {
+        padding: 50px;
+    }
+
+    .colorado {
+        padding: 50px;
+    }
+  }

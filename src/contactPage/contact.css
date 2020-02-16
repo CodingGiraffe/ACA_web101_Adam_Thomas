@@ -24,16 +24,17 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 250px;
 }
 
 input {
     width: 20%;
-    padding: 5px;
+    padding: 10px;
     background-color: grey;
     border-bottom: 2px solid white;
     border-right: 2px solid grey;
     color: white;
+    cursor: pointer;
 }
 /* #name {
 
@@ -48,13 +49,18 @@ input {
 } */
 
 #message {
-    padding: 20px;
+    padding-bottom: 50px;
+    border: 2px solid white
 }
 
 label {
     color: whitesmoke;
     font-size: 30px;
     font-family: 'Russo One', sans-serif;
+    background-color: grey;
+    margin-bottom: 10px;
+    border-radius: 60px;
+    padding: 10px;
 }
 
 button {
@@ -66,8 +72,13 @@ button {
     font-size: 25px;
     width: 15%;
     margin-top: 20px;
-    border: 2px solid white;
+    border: 3px solid white;
     font-family: 'Russo One', sans-serif;
+    border-radius: 30px;
+}
+
+::placeholder {
+    color: rgb(206, 195, 195);
 }
 
 @media screen and (max-width: 600px) {

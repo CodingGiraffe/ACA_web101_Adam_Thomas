@@ -101,9 +101,17 @@ img {
     border: 5px solid black
 }
 
+body{
+    width: 100%;
+ }
+ .main-container {
+    width: 1400px;
+    margin: 0 auto;
+ }
+
 @media (max-width: 600px) {
     .three {
         display: flex;
         flex-direction: column;
     }
-}
+}git 

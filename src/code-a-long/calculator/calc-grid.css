@@ -1,0 +1,31 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.calculator-grid {
+   border: 1px solid black;
+   height: 500px;
+   width: 500px;
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   grid-template-rows: 25% repeat(5,1fr);
+}
+
+.calculator-grid .text-input {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    background-color: red;
+}
+
+.calculator-grid .calc-buttons {
+    border: black;
+    width: 100%;
+    height: 100%;
+}
+
+.calculator-grid .calc-buttons:nth-child(1) {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: blue;
+}

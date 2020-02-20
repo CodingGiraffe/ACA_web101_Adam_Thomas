@@ -17,7 +17,8 @@ nav {
 
 main {
     background-image: url(./main.jpg);
-    height:500px;
+    background-repeat: no-repeat;
+    background-size: cover
 
 }
 

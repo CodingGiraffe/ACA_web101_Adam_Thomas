@@ -1,0 +1,80 @@
+.main-container {
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    font-family: 'Russo One', sans-serif;
+    color: ghostwhite;
+    opacity: 1;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px
+}
+
+.one {
+    
+}
+
+.austin {
+    height: 300px;
+}
+
+img {
+    height: 100%;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+.school {
+    height: 300px;
+}
+
+.colorado {
+    height: 300px;
+}
+
+.aca {
+    height: 300px;
+}
+
+p {
+    color: ghostwhite;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    background-color: rgba(9, 65, 37,.6);
+    border-radius: 100px;
+}
+
+video { 
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 600px) {
+    .section {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .austin {
+        padding: 50px;
+    }
+
+    .colorado {
+        padding: 50px;
+    }
+  }

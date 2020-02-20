@@ -23,8 +23,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Russo One', serif;
-    font-size: 30px;
+    font-family: 'Indie Flower', serif;
+    font-size: 45px;
     text-shadow: 4px 4px 4px teal;
     color: ghostwhite;
     padding: 20px;
@@ -37,12 +37,12 @@ nav ul {
     flex: 2;
     justify-content: space-between;
     padding: 10px;
-    animation: moveInRight 3s ease-out;
 }
 
 a {
     text-decoration: none;
     color: ghostwhite;
+    animation: moveInRight 3s ease-out;
 }
 
 .logo {
@@ -92,16 +92,17 @@ main .content {
 }
 
 main .content p:nth-of-type(1) {
-    font-size: 54px;
+    font-size: 70px;
 }
 
 main .content p:nth-of-type(2) {
     text-transform: uppercase;
     letter-spacing: 2.8;
+    font-size: 30px;
   }
 
 main .content button {
-    font-size: 16px;
+    font-size: 20px;
     margin: 20px 0 0;
     border: 2px solid rgba(243, 237, 237, 0.729);
     padding: 10px 20px;
@@ -167,11 +168,11 @@ footer {
       transform: translateX(100px);
     }
     50% {
-      font-size: 50px;
-      background-color: ghostwhite;
+      font-size: 45px;
+      color:teal;
     }
     80% {
-      transform: translateX(-10px);
+      transform: translateX(-20px);
     }
     100% {
       opacity: 1;

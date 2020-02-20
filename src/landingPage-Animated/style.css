@@ -37,7 +37,7 @@ nav ul {
     flex: 2;
     justify-content: space-between;
     padding: 10px;
-    animation: moveInRight 1s ease-out;
+    animation: moveInRight 3s ease-out;
 }
 
 a {
@@ -77,13 +77,14 @@ main .portfolio {
 main .photo {
     height: 300px;
     animation-name: moveInLeft;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-timing-function: ease-out;
 }
 
 main .photo img {
     height: 100%;
     border: 3px solid teal;
+    border-radius: 50%;
 }
 
 main .content {
@@ -148,6 +149,9 @@ footer {
       opacity: 0;
       transform: translateX(-100px);
     }
+    50% {
+      font-size: 5em;
+    }
     80% {
       transform: translateX(10px);
     }
@@ -161,6 +165,10 @@ footer {
     0% {
       opacity: 0;
       transform: translateX(100px);
+    }
+    50% {
+      font-size: 50px;
+      background-color: ghostwhite;
     }
     80% {
       transform: translateX(-10px);

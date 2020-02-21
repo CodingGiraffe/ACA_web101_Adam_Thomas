@@ -1,5 +1,5 @@
 .main-container {
-    
+    background-color: rgba(0,0,0,.6);
 }
 
 header {
@@ -9,7 +9,6 @@ header {
     font-size: 80px;
     font-family: 'Russo One', sans-serif;
     color: ghostwhite;
-    opacity: 1;
 }
 
 .section {
@@ -49,7 +48,6 @@ p {
     color: ghostwhite;
     font-family: 'Montserrat', sans-serif;
     padding: 20px;
-    background-color: rgba(9, 65, 37,.6);
     border-radius: 100px;
     font-size: 20px;
 }

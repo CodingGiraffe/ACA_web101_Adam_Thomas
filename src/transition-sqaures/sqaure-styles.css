@@ -1,4 +1,4 @@
-body {
+.main-container {
     display: flex; 
     flex-direction: column;
     justify-content: center;
@@ -59,4 +59,14 @@ body {
 
 .twelve {
     background-color: pink;
+}
+
+.main-container:hover .box:nth-child(odd) {
+    transform: scaleX(2) rotate(180deg) translateX(-2em);
+    transition: transform 5s ease;
+}
+
+.main-container:hover .box:nth-child(even) {
+    transform: scaleX(.5) rotate(-180deg) translateX(2em);
+    transition: transform 5s ease;
 }

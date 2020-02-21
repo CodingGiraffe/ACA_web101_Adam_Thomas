@@ -1,17 +1,16 @@
 .main-container {
-
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .box {
     height: 50px;
     width: 50px;
-    display: flex; 
-    flex-direction: column;
     margin-bottom: 10px;
-    text-align: center;
     background-color: blue;
-    margin-left: 50%
 }
 
 .one {

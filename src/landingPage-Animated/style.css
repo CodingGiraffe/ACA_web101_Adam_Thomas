@@ -23,8 +23,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Tangerine', serif;
-    font-size: 30px;
+    font-family: 'Indie Flower', serif;
+    font-size: 45px;
     text-shadow: 4px 4px 4px teal;
     color: ghostwhite;
     padding: 20px;
@@ -36,12 +36,13 @@ nav ul {
     flex-direction: row;
     flex: 2;
     justify-content: space-between;
-    padding: 10px
+    padding: 10px;
 }
 
 a {
     text-decoration: none;
     color: ghostwhite;
+    animation: moveInRight 3s ease-out;
 }
 
 .logo {
@@ -51,11 +52,6 @@ a {
     font-family: 'Fredericka the Great', cursive;
     padding: 0px 0px 0px 20px;
 }
-
-/* .logo img {
-    height: 100%;
-    border: 2px solid black;
-} */
 
 main {
     flex: 1;
@@ -80,11 +76,15 @@ main .portfolio {
 
 main .photo {
     height: 300px;
+    animation-name: moveInLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
 }
 
 main .photo img {
     height: 100%;
     border: 3px solid teal;
+    border-radius: 50%;
 }
 
 main .content {
@@ -92,16 +92,17 @@ main .content {
 }
 
 main .content p:nth-of-type(1) {
-    font-size: 54px;
+    font-size: 70px;
 }
 
 main .content p:nth-of-type(2) {
     text-transform: uppercase;
     letter-spacing: 2.8;
+    font-size: 30px;
   }
 
 main .content button {
-    font-size: 16px;
+    font-size: 20px;
     margin: 20px 0 0;
     border: 2px solid rgba(243, 237, 237, 0.729);
     padding: 10px 20px;
@@ -144,3 +145,38 @@ footer {
         padding: 5px 0px 0px 0px;
     }
   }
+  @keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    50% {
+      font-size: 5em;
+    }
+    80% {
+      transform: translateX(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes moveInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    50% {
+      font-size: 45px;
+      color:teal;
+    }
+    80% {
+      transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  

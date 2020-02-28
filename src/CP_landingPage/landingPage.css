@@ -1,0 +1,155 @@
+.main-conatiner {
+   
+}
+
+body {
+    background-color: rgb(121, 118, 118, .6);
+}
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+}
+
+.head {
+    font-size: 120px;
+    padding: 40px;
+    color: blue;
+    text-shadow: 1px 1px  white;
+    /* border: 5px solid yellow; */
+    font-family: 'Bowlby One SC';
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    /* border: 5px solid red;  */
+    padding: 20px;
+}
+
+section {
+    /* border: 5px solid white; */
+    color:blue; 
+    font-size: 80px;
+    font-family: 'Permanent Marker';
+}
+
+/* .logo {
+    height: 100%
+} */
+
+nav {
+    text-align: center;
+    /* color:blue; */
+    word-spacing: 80px;
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+
+a {
+    text-decoration: none;
+    color:blue;
+    /* text-shadow: 1px 1px red; */
+    font-family: 'Advent Pro';
+    text-decoration: underline white;
+    font-size: 50px;
+}
+
+.background-vid {
+    opacity: .2;
+}
+
+video {
+    width: 100%;
+}
+
+.first {
+    height: 400px
+}
+
+.second {
+    height: 400px
+}
+
+.three {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:blue;
+}
+
+img {
+    height: 60%;
+    padding: 20px;
+    width: 300px;
+    border: 5px solid white;
+    border-radius: 2em;
+}
+
+footer {
+    height: 150px;
+    /* background-color: black; */
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:20px
+}
+
+.foot {
+    display: flex;
+}
+
+.last {
+    padding: 30px;
+    font-size: 50px;
+}
+
+.company {
+    color:blue;
+    font-size: 30px;
+}
+
+i {
+    border: 5px solid white;
+    padding: 5px;
+    color: blue;
+}
+
+li {
+    list-style-type: none;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gloria Hallelujah'
+
+}
+
+@media (max-width: 576px) {
+    .three {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    img {
+        padding: 5px;
+        height: 50px
+    }
+}
+@media (max-width: 768px) {
+      footer {
+        display: flex;
+        flex-direction: column;
+    }
+}

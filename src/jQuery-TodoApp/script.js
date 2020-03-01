@@ -1,5 +1,7 @@
 $(function() {
 
+    alert("Welcome to your To-Do list. Let's get started");
+
     let $list = $('ul');
     let $newItemForm = $('#newItemForm');
   
@@ -14,5 +16,10 @@ $(function() {
       let $this = $(this);
       $this.remove();
     });
+
+    $("#clear").click(function(){
+      $("ul").empty();
+  });
+
   
   });

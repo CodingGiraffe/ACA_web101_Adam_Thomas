@@ -130,7 +130,7 @@ footer {
     color: ghostwhite;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     nav ul {
         font-size: 20px;
         word-spacing: 15px;

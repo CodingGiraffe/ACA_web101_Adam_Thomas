@@ -108,8 +108,4 @@ img {
         display: flex;
         flex-direction: column;
     }
-
-    .maintext {
-        display: none;
-    } 
 }

@@ -2,6 +2,7 @@
 //initial number of cookies    
 var num = 0;
 
+// enter name to page
 window.onload = function () {
         var name = prompt("What is your name");
         
@@ -10,6 +11,7 @@ window.onload = function () {
         space.innerHTML = name + "'s Hoop Zone";
 }
 
+// add 1 point per click
 var cookie = document.getElementById("ball");
 
 function ballClick() { 

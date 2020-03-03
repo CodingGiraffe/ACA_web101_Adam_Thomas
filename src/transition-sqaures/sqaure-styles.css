@@ -1,0 +1,72 @@
+.main-container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+    background-color: blue;
+}
+
+.one {
+    background-color: blue;
+}
+
+.two {
+    background-color: blueviolet;
+}
+
+.three {
+    background-color: brown;
+}
+
+.four {
+    background-color: cadetblue;
+}
+
+.five {
+    background-color: coral;
+}
+
+.six {
+    background-color: crimson;
+}
+
+.seven {
+    background-color: fuchsia;
+}
+
+.eight {
+    background-color: green;
+}
+
+.nine {
+    background-color: gold;
+}
+
+.ten {
+    background-color: indigo;
+}
+
+.eleven {
+    background-color: orangered;
+}
+
+.twelve {
+    background-color: pink;
+}
+
+.main-container:hover .box:nth-child(odd) {
+    transform: scaleX(2) rotate(180deg) translateX(-2em);
+    transition: transform 3s ease;
+}
+
+.main-container:hover .box:nth-child(even) {
+    transform: scaleX(.5) rotate(-180deg) translateX(2em);
+    transition: transform 3s ease;
+}

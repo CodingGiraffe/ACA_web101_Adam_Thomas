@@ -47,6 +47,14 @@ img {
 p {
     color: ghostwhite;
     font-family: 'Montserrat', sans-serif;
+    background-color: rgb(13, 65, 13);
+    height: 150px;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 video { 

@@ -81,4 +81,9 @@ video {
     .colorado {
         padding: 50px;
     }
+
+    p {
+        font-size: 17px;
+        background-color: none;
+    }
   }

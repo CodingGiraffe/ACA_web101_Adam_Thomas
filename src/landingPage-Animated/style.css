@@ -133,6 +133,7 @@ footer {
 @media only screen and (max-width: 600px) {
     nav ul {
         font-size: 20px;
+        word-spacing: 15px;
     }
     
     main {
@@ -145,6 +146,9 @@ footer {
         padding: 5px 0px 0px 0px;
     }
 
+    main .content p:nth-of-type(1) {
+      font-size: 50px;
+  }
 
     footer {
       display:none;

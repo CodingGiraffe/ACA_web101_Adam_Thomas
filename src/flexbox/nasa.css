@@ -51,11 +51,15 @@ li {
     margin-bottom: 5px;
 }
 
-@media (max-width:500px) {
+@media (max-width:600px) {
     .social {
         flex-direction: column;
         height: 100%;
         align-items: center;
+    }
+
+    h2 {
+        font-size: 20px;
     }
 }
 

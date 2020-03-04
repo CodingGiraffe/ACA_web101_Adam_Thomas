@@ -20,9 +20,9 @@ video {
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* display: flex;
+    justify-content:flex-end;
+    align-items: flex-end; */
     font-family: 'Indie Flower', serif;
     font-size: 45px;
     text-shadow: 4px 4px 4px teal;
@@ -34,9 +34,10 @@ nav ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    flex: 2;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     padding: 10px;
+    word-spacing: 20px;
 }
 
 a {

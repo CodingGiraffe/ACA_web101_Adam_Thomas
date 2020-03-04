@@ -61,5 +61,8 @@ main {
     justify-content: space-evenly;
     align-items: center;
     font-family: 'Advent Pro'
+}
 
+p {
+    align-items: center;
 }

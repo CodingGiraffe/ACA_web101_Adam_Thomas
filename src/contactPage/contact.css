@@ -16,6 +16,7 @@ header {
     padding: 20px;
     color: ghostwhite;
     font-family: 'Chango', cursive;
+    text-shadow: 2px 2px  grey
 }
 
 .form {
@@ -57,10 +58,11 @@ label {
     color: whitesmoke;
     font-size: 30px;
     font-family: 'Russo One', sans-serif;
-    background-color: grey;
+    /* background-color: grey; */
     margin-bottom: 10px;
     border-radius: 60px;
     padding: 10px;
+    text-shadow: 2px 2px  grey
 }
 
 button {

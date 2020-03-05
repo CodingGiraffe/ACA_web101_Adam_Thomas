@@ -68,7 +68,7 @@ a {
 
 video {
     width: 100%;
-    opacity: .2;
+    opacity: .4;
 }
 
 .first {
@@ -131,24 +131,49 @@ li {
 p {
     text-align: center;
     font-size: 30px;
-    font-family: 'Gloria Hallelujah';
+    font-family: 'Advent Pro';
 
 }
 
 @media (max-width: 576px) {
-    .three {
+    .first {
         display: flex;
         flex-direction: column;
+        margin-top: 200px;
+    }
+    
+    .second {
+        display: flex;
+        flex-direction: column;
+        margin-top: 400px;
     }
     
     img {
         padding: 5px;
         height: 50px
     }
+
+    .top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        font-size: 42px;
+    }
+
+    a {
+        font-size: 30px;
+    }
+
+    img {
+        height: 200px
+    }
 }
 @media (max-width: 768px) {
       footer {
         display: flex;
         flex-direction: column;
+        margin-top: 200px;
     }
 }

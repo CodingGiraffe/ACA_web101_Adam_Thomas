@@ -57,4 +57,6 @@ function ComputerPlayer(board) {
         availablePositions[move].innerText = 'O';
     }
 
+    // https://www.youtube.com/watch?v=TD5EaIkhSTQ - link to codealong
+
 }

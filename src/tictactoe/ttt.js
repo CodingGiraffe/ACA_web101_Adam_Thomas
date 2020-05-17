@@ -17,13 +17,13 @@ function TicTacToeGame () {
     function takeTurn() {
         
         if (turn % 2 === 0) {
-            humanPlayer.takeTurn();
+            humanPlayer.takeTurn()
         } else {
-            computerPlayer.takeTurn();
+            computerPlayer.takeTurn()
         }
 
+        turn++;
     }
-
 }
 
 function Board () {
@@ -34,6 +34,7 @@ function Board () {
 
 function HumanPlayer(board) {
     this.takeTurn = function() {
+        console.log("human player turn")
         board.positions
             .forEach(el => el.addEventListener('click', handleTurnTaken));
     }
@@ -41,8 +42,7 @@ function HumanPlayer(board) {
 
     function handleTurnTaken(event) {
         event.target.innerText = 'X'
-        board.positions
-            .forEach(el => el.removeEventListener('click', handleTurnTaken));
+        board.positions.forEach(el => el.removeEventListener('click', handleTurnTaken))
     }
 
     // the removeEventListener tag (above) doesn't seem to be working...why????
@@ -52,6 +52,7 @@ function HumanPlayer(board) {
 function ComputerPlayer(board) {
 
     this.takeTurn = function() {
+        console.log("Computer player turn")
         const availablePositions = board.positions.filter((p) => p.innerText === '');
         const move = Math.floor(Math.random() * availablePositions.length);
         availablePositions[move].innerText = 'O';
